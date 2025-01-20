@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Jost';
+    font-weight: 400;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1440px;
+    width: 1111px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 67px;
+}
+.header-a{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.header-a a{
+    color: #333136;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.main{
+    background-color: #E7816B;
+    border-radius: 15px;
+    z-index: -2;
+    position: relative;
+}
+.main-info h2{
+    width: 540px;
+    height: 165px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    color: white;
+}
+.main-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+    width: 445px;
+    margin: 11px 0px 40px;
+}
+.main-info button{
+    color: #333136;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 18px 25px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+}
+.main-info{
+    padding: 145px 95px;
+}
+.phone-absolute img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.oval-absolute img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.hero-images{
+    margin-top: 160px;
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+.image2{
+    margin-bottom: 18px;
+}
+.working{
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    gap: 30px;
+    position: relative;
+}
+.tab{
+    text-align: center;
+}
+.tab h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 5px;
+    color: #333136;
+    margin: 48px 0px 32px;
+}
+.tab p{
+    width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333136;
+}
+.back-shape{
+    position: absolute;
+    z-index: -20;
+    bottom: -306px;
+    right: -165px;
+}
+.back-shape-2{
+    position: absolute;
+    bottom: 526px;
+    left: -164px;
+    z-index: -20;
+}
