@@ -195,6 +195,7 @@ body {
 footer {
     background-color: #1D1C1E;
     max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     padding: 144px 0px 72px;
     margin-top: 380px;
@@ -352,4 +353,7 @@ footer {
 }
 .network i:hover{
     color: #FFAD9B;
+}
+@media screen and (max-width:1440px){
+    
 }
