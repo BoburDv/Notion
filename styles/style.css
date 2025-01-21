@@ -1,44 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Jost';
     font-weight: 400;
     overflow-x: hidden;
+    position: relative;
 }
-.container{
+
+.container {
     max-width: 1440px;
     width: 1111px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 64px;
     margin-bottom: 67px;
 }
-.header-a{
+
+.header-a {
     display: flex;
     align-items: center;
     gap: 42px;
 }
-.header-a a{
+
+.header-a a {
     color: #333136;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
 }
-.main{
+
+.main {
     background-color: #E7816B;
     border-radius: 15px;
-    z-index: -2;
+    z-index: 1;
     position: relative;
 }
-.main-info h2{
+
+.main-info h2 {
     width: 540px;
     height: 165px;
     font-size: 48px;
@@ -47,7 +55,8 @@ body{
     text-align: left;
     color: white;
 }
-.main-info p{
+
+.main-info p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -56,7 +65,8 @@ body{
     width: 445px;
     margin: 11px 0px 40px;
 }
-.main-info button{
+
+.main-info button {
     color: #333136;
     font-size: 15px;
     font-weight: 500;
@@ -67,42 +77,91 @@ body{
     border-radius: 8px;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
-.main-info{
+
+.main-info {
     padding: 145px 95px;
+    z-index: 2;
 }
-.phone-absolute img{
+
+.phone-absolute img {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
 }
-.oval-absolute img{
+
+.oval-absolute img {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
 }
-.hero-images{
+
+.hero-images {
     margin-top: 160px;
     position: relative;
     display: flex;
     gap: 30px;
 }
-.image2{
-    margin-bottom: 18px;
+
+.hero-images .gap {
+    margin-top: 24px;
 }
-.working{
+
+.image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    background-color: #E7816B;
+    border-radius: 15px;
+}
+
+.image:hover img{
+    opacity: 30%;
+    transition: all 0.2s;
+}
+.image .content {
+    position: absolute;
+    text-align: center;
+}
+
+.image .content h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 2px;
+}
+
+.image .content p {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+    letter-spacing: 5px;
+    margin-top: 24px;
+}
+
+.working {
     display: flex;
     align-items: center;
     margin-top: 160px;
     gap: 30px;
     position: relative;
 }
-.tab{
+
+.tab {
     text-align: center;
 }
-.tab h4{
+
+.tab h4 {
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
@@ -110,22 +169,187 @@ body{
     color: #333136;
     margin: 48px 0px 32px;
 }
-.tab p{
+
+.tab p {
     width: 350px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     color: #333136;
 }
-.back-shape{
+
+.back-shape {
     position: absolute;
     z-index: -20;
     bottom: -306px;
     right: -165px;
 }
-.back-shape-2{
+
+.back-shape-2 {
     position: absolute;
     bottom: 526px;
     left: -164px;
     z-index: -20;
+}
+
+footer {
+    background-color: #1D1C1E;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 144px 0px 72px;
+    margin-top: 380px;
+}
+
+.footer {
+    position: relative;
+}
+
+.logo-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.10);
+    padding-bottom: 40px;
+}
+
+.footer-a {
+    display: flex;
+    gap: 42px;
+}
+
+.footer-a a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.adress-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress-flex {
+    display: flex;
+    gap: 198px;
+    margin-top: 31px;
+}
+
+.footer .adress p {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    opacity: 50%;
+    font-weight: 400;
+    width: 200px;
+}
+
+.footer .adress span {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer .contact p {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    font-weight: 700;
+    opacity: 50%;
+    width: 210px;
+}
+
+.network {
+    z-index: 20;
+    display: flex;
+    margin-top: 85px;
+    gap: 16px;
+}
+
+.network p {
+    font-size: 25px;
+    color: #E7816B;
+    opacity: 92%;
+}
+
+.offer {
+    position: absolute;
+    background-color: #E7816B;
+    border-radius: 15px;
+    width: 1111px;
+    position: relative;
+    margin-top: -620px;
+    padding: 72px 96px 46px 95px;
+    z-index: 2;
+}
+
+.offer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 50;
+}
+
+.offer-circle img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top-right-radius: 15px;
+    z-index: -1;
+}
+
+.offer-flex .text h2 {
+    width: 268px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 98px;
+}
+
+.offer-flex .text p {
+    width: 459px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    height: 78px;
+}
+
+.offer-flex button {
+    padding: 17px 18.5px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+    letter-spacing: 1px;
+    color: #333136;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+}
+.offer-flex button:hover{
+    background-color: #FFAD9B;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+}
+.header-a a:hover{
+    text-decoration: underline solid 0.1px #333136;
+}
+.footer-a a:hover{
+    text-decoration: underline solid 0.1px #afafaf;
+}
+.main-button:hover{
+    background-color: #FFAD9B;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+}
+.network i:hover{
+    color: #FFAD9B;
 }
