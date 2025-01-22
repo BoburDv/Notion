@@ -368,6 +368,15 @@ footer {
 .offer-circle-2{
     display: none;
 }
+.phone-absolute-2{
+    display: none;
+}
+.list{
+    display: none;
+}
+.mobile-image{
+    display: none;
+}
 @media screen and (max-width:1440px){
     .back-shape{
         display: none;
@@ -381,7 +390,7 @@ footer {
         width: 91%;
     }
     .header{
-        width: 91%;
+        width: 90%;
     }
     .main{
         width: 91%;
@@ -390,7 +399,7 @@ footer {
         width: 91%;
     }
     .working{
-        width: 91%;
+        width: 90%;
         justify-content: space-around;
     }
     .working p{
@@ -451,6 +460,7 @@ footer {
     .phone-absolute img {
         position: unset;
         z-index: 2;
+        overflow: hidden;
     }
 
     .hero-images{
@@ -589,7 +599,95 @@ footer {
         margin-top: 18px;
     }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 678px){
+    .footer .logo-links{
+        flex-direction: column;
+    }
+    .footer .logo{
+        margin-bottom: 30px;
+    }
+    .footer .adress-flex{
+        gap: 0px;
+        justify-content: space-between;
+        width: 92%;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .footer .network{
+        flex-wrap: wrap;
+        margin: 35px 0px 0px;
+        justify-content: end;
+        width: 92%;
+    }
+    .footer .adress-contact{
+        flex-direction: column;
+    }
+    .offer{
+        margin-top: -760px;
+    }
+    .header .header-a{
+        display: none;
+    }
+    .header .list{
+        display: block;
+    }
+}
+@media screen and (max-width: 648px){
+    .main-info h2{
+        margin-bottom: 53px;
+    }
+    .offer .text p{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 520px){
+    .offer .text p{
+        margin-bottom: 13px;
+        font-size: 15px;
+        height: 75px;
+    }
+    .offer .text h2{
+        font-size: 32px;
+        height: 82px;
+        margin-bottom: 13px;
+    }
+    .footer .adress-flex{
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+    }
+    .footer .adress{
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer .contact{
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer .network{
+        flex-wrap: wrap;
+        margin: 40px 0px 0px;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer .footer-a{
+        flex-direction: column;
+        gap: 34px;
+        text-align: center;
+    }
+    .offer{
+        margin-top: -995px;
+    }
+    .footer{
+        padding-top: 100px ;
+    }
+}
+@media screen and (max-width: 648px){
     .working{
         flex-direction: column;
         justify-content: center;
@@ -599,6 +697,12 @@ footer {
         text-align: center;
         flex-direction: column;
         justify-content: center;
+    }
+    .tab img{
+        margin: 0 auto;
+    }
+    .main .main-info p{
+        width: 100%;
     }
     
     .tab h4 {
@@ -616,5 +720,57 @@ footer {
         font-weight: 400;
         line-height: 26px;
         color: #333136;
+    }
+}
+@media screen and (max-width: 600px){
+    .main .main-info h2{
+        font-size: 32px;
+        margin: 0 auto;
+        line-height: 36px;
+        width: 100%;
+    }
+    .main .main-info p{
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0 auto;
+        margin-top: -75px;
+        width: 100%;
+    }
+    .main-info{
+        padding: 80px 24px;
+    }
+    .header{
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    .main .phone-absolute{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: -30px;
+        margin-top: -120px;
+    }
+}
+@media screen and (max-width: 528px){
+    .main .main-info p{
+        margin-top: -35px;
+    }
+    footer{
+        width: 100%;
+        height: 815px;
+    }
+    .hero-images .image .blok{
+        display: none;
+    }
+    .hero-images .mobile-image{
+        display: block;
+    }
+}
+@media screen and (max-width: 400px){
+    .main .main-info p{
+        margin-top: -10px;
+    }
+    .tab p{
+        width: 100%;
     }
 }
