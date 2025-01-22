@@ -539,6 +539,12 @@ footer {
         padding-top: 160px;
     }
 }
+@media screen and (max-width: 842px){
+    .main p{
+        text-align: center;
+        padding-top: 160px;
+    }
+}
 @media screen and (max-width: 900px){
 }
 @media screen and (max-width: 893px){
