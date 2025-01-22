@@ -349,13 +349,7 @@ footer {
 .offer-circle-2{
     display: none;
 }
-.phone-absolute-2{
-    display: none;
-}
 .list{
-    display: none;
-}
-.mobile-image{
     display: none;
 }
 @media screen and (max-width:1440px){
@@ -388,19 +382,6 @@ footer {
     }
 }
 @media screen and (max-width: 1075px){
-    .main-info{
-        text-align: center;
-        padding: 60px 58px 0px;
-        z-index: 2;
-        display: block;
-    }
-    .main-info p{
-        text-align: center;
-        width: 85%;
-        padding: 0px 40px;
-        padding-top: 120px;
-        margin: auto;
-    }
     .main .oval-absolute{
         display: none;
     }
@@ -419,18 +400,10 @@ footer {
         margin-right: -30px;
         margin-top: -40px;
     }
-    .main-info h2{
-        width: 100%;
-        text-align: center;
-        height: 8px;
-    }
     .main{
         flex-direction: column;
         flex-wrap: wrap;
         z-index: 1;
-    }
-    .main-info button{
-        margin-top: 19px;
     }
     .phone-absolute img {
         position: unset;
@@ -441,11 +414,6 @@ footer {
     .hero-images{
         margin-top: 120px;
     }
-    .working{
-        margin-top: 120px;
-        margin-bottom: 331px;
-    }
-    
 }
 @media screen and (max-width: 992px){
     .footer .adress-flex{
@@ -474,10 +442,6 @@ footer {
     .text p{
         width: 90%;
         margin-bottom: 25px;
-    }
-    .working{
-        flex-wrap: wrap;
-        gap: 32px;
     }
     .tab{
         display: flex;
@@ -509,12 +473,6 @@ footer {
     .image .content p {
         font-size: 11px;
         margin-top: 18px;
-    }
-}
-@media screen and (max-width: 824px){
-    .main-info p{
-        text-align: center;
-        padding-top: 160px;
     }
 }
 @media screen and (max-width: 893px){
@@ -654,11 +612,6 @@ footer {
     }
 }
 @media screen and (max-width: 648px){
-    .working{
-        flex-direction: column;
-        justify-content: center;
-        gap: 80px;
-    }
     .tab {
         text-align: center;
         flex-direction: column;
@@ -666,9 +619,6 @@ footer {
     }
     .tab img{
         margin: 0 auto;
-    }
-    .main .main-info p{
-        width: 100%;
     }
     
     .tab h4 {
@@ -707,13 +657,5 @@ footer {
     }
     .hero-images .mobile-image{
         display: block;
-    }
-}
-@media screen and (max-width: 400px){
-    .main .main-info p{
-        margin-top: -10px;
-    }
-    .tab p{
-        width: 100%;
     }
 }
