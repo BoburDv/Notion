@@ -378,15 +378,13 @@ footer {
     }
     .tab{
         width: 93%;
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
     .import-flex{
         flex-direction: column;
         gap: 30px;
-    }
-    .tab{
-        display: flex;
-        align-items: center;
-        text-align: center;
     }
 }
 @media screen and (max-width: 1075px){
@@ -519,12 +517,6 @@ footer {
         padding-top: 160px;
     }
 }
-@media screen and (max-width: 842px){
-    .main p{
-        text-align: center;
-        padding-top: 160px;
-    }
-}
 @media screen and (max-width: 893px){
     .offer-flex .text h2{
         padding-bottom: 25px;
@@ -612,9 +604,6 @@ footer {
     }
 }
 @media screen and (max-width: 648px){
-    .main-info h2{
-        margin-bottom: 53px;
-    }
     .offer .text p{
         width: 80%;
         margin: 0 auto;
@@ -700,32 +689,9 @@ footer {
     }
 }
 @media screen and (max-width: 600px){
-    .main .main-info h2{
-        font-size: 32px;
-        margin: 0 auto;
-        line-height: 36px;
-        width: 100%;
-    }
-    .main .main-info p{
-        font-size: 15px;
-        line-height: 25px;
-        margin: 0 auto;
-        margin-top: -75px;
-        width: 100%;
-    }
-    .main-info{
-        padding: 80px 24px;
-    }
     .header{
         margin-top: 34px;
         margin-bottom: 34px;
-    }
-    .main .phone-absolute{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        margin-right: -30px;
-        margin-top: -120px;
     }
 }
 @media screen and (max-width: 528px){
