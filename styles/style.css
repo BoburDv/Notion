@@ -538,8 +538,6 @@ footer {
         padding-top: 160px;
     }
 }
-@media screen and (max-width: 900px){
-}
 @media screen and (max-width: 893px){
     .offer-flex .text h2{
         padding-bottom: 25px;
@@ -580,9 +578,43 @@ footer {
     .image .content h2 {
         font-size: 40px;
     }
+
+    .offer p{
+        width: 100%;
+        flex-wrap: wrap;
+    }
     
     .image .content p {
         font-size: 14px;
         margin-top: 18px;
+    }
+}
+@media screen and (max-width: 700px){
+    .working{
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+    }
+    .tab {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .tab h4 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 5px;
+        color: #333136;
+        margin: 48px 0px 32px;
+    }
+    
+    .tab p {
+        width: 350px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #333136;
     }
 }
